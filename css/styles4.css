@@ -1,0 +1,119 @@
+/* Demo */
+
+#grid-start {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    gap: 10px;
+    justify-items: start;
+    background-color: #f1f1f1;
+}
+
+#grid-end {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    gap: 10px;
+    justify-items: end;
+    background-color: #f1f1f1;
+}
+
+#grid-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    gap: 10px;
+    justify-items: center;
+    background-color: #f1f1f1;
+}
+
+#grid-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: left;
+    background-color: #f1f1f1;
+}
+
+#grid-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: right;
+    background-color: #f1f1f1;
+}
+
+#grid-stretch {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    gap: 10px;
+    justify-items: stretch;
+    background-color: #f1f1f1;
+}
+
+#grid-stretch .red {
+    width: 40px;
+}
+
+#grid-stretch .green {
+    width: auto;
+}
+
+#grid-stretch .blue {
+    width: auto;
+}
+
+#grid-self-start {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    gap: 10px;
+    justify-items: self-start;
+    background-color: #f1f1f1;
+}
+
+#grid-self-end {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    gap: 10px;
+    justify-items: self-end;
+    background-color: #f1f1f1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container-div {
+    width: 60%;
+}
+
+div {
+    padding: 20px;
+    width: 25%;
+    border: 1px solid #000;
+}
+
+.red {
+    background: #d00;
+}
+
+.green {
+    background: yellowgreen;
+}
+
+.blue {
+    background: royalblue;
+}
